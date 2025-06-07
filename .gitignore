@@ -21,3 +21,23 @@ yarn-error.log
 /public/js/app.js
 /public/mix-manifest.json
 /DEVSENSE/packages-cache/authorizenet
+
+# Additional exclusions
+*.log
+*.bak
+.DS_Store
+Thumbs.db
+/storage/debugbar/
+/storage/framework/
+/storage/logs/
+/bootstrap/cache/
+/public/storage/
+/public/hot/
+/public/uploads/
+/vendor/
+/node_modules/
+.phpunit.result.cache
+.env.local
+.env.development
+.env.test
+.env.production
